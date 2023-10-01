@@ -11,19 +11,19 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'Durch den Programmier Pioneer Grundkurs habe ich meine Leidenschaft für Informatik entdeckt. Jetzt studiere ich Informatik und sehe eine aufregende Zukunft vor mir.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Hasan Z.',
+        role: 'Abiturient',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'Der Kurs war ein Augenöffner für mich! Ich hätte nie gedacht, dass ich einmal ein MINT-Fach studieren würde, aber jetzt bin ich im ersten Semester DataScience.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Batu G.',
+        role: 'B. Sc. Data Science',
         image: avatarImage4,
       },
     },
@@ -31,19 +31,19 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        'Ich war immer unsicher, ob Informatik das Richtige für mich ist. Der Grundkurs hat alle Zweifel beseitigt, und ich freue mich im Oktober mein Studium zu beginnen.',
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'Alex Z.',
+        role: 'Abiturient',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+        'Ich habe mittlerweile meine eigene App rausgebracht und danke dem Team Coding Werkstatt dafür, in mir das Feuer für die Informatik entfacht zu haben.',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'Joshua S.',
+        role: 'Abiturient',
         image: avatarImage2,
       },
     },
@@ -51,19 +51,19 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'Ich habe den Kurs in den Sommerferien vor meinem Studiumbeginn gemacht. Dank der Vorkenntnisse konnte ich im ersten Semester Informatik überzeugen und habe bereits meinen ersten Werkstudentenjob.',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'Stephan T.',
+        role: 'B. Sc. Informatik',
         image: avatarImage3,
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'Ich habe den Kurs in der 10ten Klasse gemacht und habe danach eine Verwaltungsapp für meine Eltern programmiert.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Berk Ö.',
+        role: 'Abiturient',
         image: avatarImage4,
       },
     },
@@ -88,12 +88,10 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Kundenbewertungen
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            Tagtäglich begeistern wir neue Kunden für die Informatik und führen Sie an die wichtigstens Fähigkeiten für die Welt von morgen.
           </p>
         </div>
         <ul
