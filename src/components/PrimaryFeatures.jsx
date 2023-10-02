@@ -15,28 +15,28 @@ import test from'@/images/screenshots/testt.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Modulaufbau',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "Unser Grundkurs ist strukturiert in mehrere umfangreiche Einheiten, die einen schrittweisen Einstieg in die Programmierung mit Python ermöglichen.",
     image: test,
   },
   {
-    title: 'Claim expenses',
+    title: 'Kursmaterial',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      "Wir nutzen interaktive Jupyter-Notebooks, gefüllt mit hochwertigen Visualisierungen und Übungscoding-Blöcken, um ein industrienahes Lernumfeld zu schaffen.",
+    image: test,
   },
   {
-    title: 'VAT handling',
+    title: 'Moderne Anwendungen',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      " Durch unser Hands-On-Prinzip setzen wir von Anfang an auf die Entwicklung echter Anwendungen und moderner Benutzeroberflächen, um die Leidenschaft für Informatik zu entfachen",
+    image: test,
   },
   {
-    title: 'Reporting',
+    title: 'Folgekurse',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Nach dem Grundkurs stehen zahlreiche Folgekurse in unserer Online Kursbibliothek in Bereichen wie Spieleentwicklung, Webentwicklung, Data Science und KI zur Verfügung.',
+    image: test,
   },
 ]
 
@@ -75,11 +75,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Unsere Leistungen im Überblick
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Klicke dich durch die folgenden Abschnitte und erhalte detaillierte Informationen über unser führendes Programm: Grundkurs für angehende Programmier-Pioniere.
           </p>
         </div>
         <Tab.Group
