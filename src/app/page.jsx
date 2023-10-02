@@ -19,8 +19,9 @@ export default function Home() {
 
         <Pricing />
         {/*<Faqs />*/}
-          <Testimonials />
           <CallToAction />
+          <Testimonials />
+
       </main>
       <Footer />
     </>

@@ -11,13 +11,14 @@ import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import test from'@/images/screenshots/testt.png'
 
 const features = [
   {
     title: 'Payroll',
     description:
       "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+    image: test,
   },
   {
     title: 'Claim expenses',
@@ -61,16 +62,16 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
+      className="relative overflow-hidden bg-slate-900 pb-28 pt-20 sm:py-32"
     >
-      <Image
-        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
-        src={backgroundImage}
-        alt=""
-        width={2245}
-        height={1636}
-        unoptimized
-      />
+      {/*<Image*/}
+      {/*  className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"*/}
+      {/*  src={backgroundImage}*/}
+      {/*  alt=""*/}
+      {/*  width={2245}*/}
+      {/*  height={1636}*/}
+      {/*  unoptimized*/}
+      {/*/>*/}
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">

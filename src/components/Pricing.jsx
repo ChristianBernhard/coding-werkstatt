@@ -109,10 +109,10 @@ export function Pricing() {
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
               <span className="relative">Unsere Preismodelle</span>
             </span>{' '}
-            für Sie
+            im Überblick
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            Sie möchten ein individuelles Angebot oder Tarif? Kontaktieren Sie uns
+            Du möchtest ein individuelles Angebot? Kontaktiere uns
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
@@ -131,12 +131,12 @@ export function Pricing() {
           />
           <Plan
             featured
-            name="Programmier Pioneer 🛠️"
+            name="Programmier Pionier 🛠️"
             price={<>699€ <s>899€</s></>}
             description="Lerne alle Grundlagen des Programmierens und baue deine ersten echten Anwendungen"
             href="#get-started-today"
             features={[
-              'Der Kurs umfasst 10 Module à 90 min',
+              'Der Kurs umfasst 10 Einheiten à 90 min',
               'Lerne die Grundlagen wie Variablen, Datentypen, Schleifen & Co. mit Python',
               'Jedes Modul beinhaltet viele Hands On Übungen, um das elernte zu vertiefen',
               'Baue deine ersten Softwareprojekte mit modernem User Interface',

@@ -98,23 +98,23 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+              <Logo src="/Logo.svg" alt="Your Logo Alt Text" className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#get-started-today">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="#features">Produkte</NavLink>
+              <NavLink href="#pricing">Preise</NavLink>
+              <NavLink href="#get-started-today">Kontakt</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <div className="hidden md:block">
-              <NavLink href="/login">Sign in</NavLink>
-            </div>
-            <Button href="/register" color="blue">
-              <span>
-                Get started <span className="hidden lg:inline">today</span>
-              </span>
-            </Button>
+            {/*<div className="hidden md:block">*/}
+            {/*  <NavLink href="/login">Sign in</NavLink>*/}
+            {/*</div>*/}
+            {/*<Button href="/register" color="blue">*/}
+            {/*  <span>*/}
+            {/*    Get started <span className="hidden lg:inline">today</span>*/}
+            {/*  </span>*/}
+            {/*</Button>*/}
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
