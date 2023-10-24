@@ -5,11 +5,11 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Coding Werkstatt',
+    default: 'Coding Werkstatt - Ein Programmier Pionier startet hier.',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'In der Coding Werkstatt legen wir die Basis für alle, die das Programmieren von der Pike auf lernen wollen. Verwirkliche deine Projekte und Ideen mit uns.',
 }
 
 const inter = Inter({
