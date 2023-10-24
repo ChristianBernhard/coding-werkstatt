@@ -29,7 +29,7 @@ const features = [
   {
     title: 'Moderne Anwendungen',
     description:
-      " Durch unser Hands-On-Prinzip setzen wir von Anfang an auf die Entwicklung echter Anwendungen und moderner Benutzeroberflächen, um die Leidenschaft für Informatik zu entfachen",
+      " Durch unser Hands-On-Prinzip setzen wir von Anfang an auf die Entwicklung echter Anwendungen und modernem User Interface, um die Leidenschaft für Informatik zu entfachen",
     image: test,
   },
   {

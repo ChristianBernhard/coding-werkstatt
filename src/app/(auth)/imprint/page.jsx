@@ -22,7 +22,7 @@ export default function Imprint() {
 
       <h2 className="text-lg font-semibold mt-4">KONTAKT:</h2>
       <p>Tel: 0177 8028796</p>
-      <p>coding-werkstatt@gmail.com</p>
+      <p>christianbernhard089@gmail.com</p>
 
       <h2 className="text-lg font-semibold mt-4">REGISTEREINTRAG:</h2>
       <p>Registergericht: …</p>

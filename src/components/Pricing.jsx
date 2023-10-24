@@ -118,7 +118,7 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Schnupperstunde 🌟"
-            price="40€"
+            price={<>30€/h</>}
             description="Informieren Sie sich und testen Sie unser Programm."
             href="#get-started-today"
             features={[
@@ -126,13 +126,13 @@ export function Pricing() {
               'Klärung organisatorischer Fragen',
               'Einrichtung & Installation',
               'Ersten Schritte mit Python',
-              'Preis wird bei Kursbuchung verrechnet',
+              'Feedbackgespräch',
             ]}
           />
           <Plan
             featured
             name="Programmier Pionier 🛠️"
-            price={<>699€ <s>899€</s></>}
+            price={<>50€/h</>}
             description="Lerne alle Grundlagen des Programmierens und baue deine ersten echten Anwendungen"
             href="#get-started-today"
             features={[
@@ -147,11 +147,11 @@ export function Pricing() {
               available={false}
             name="Folgekurse 🚀"
             price="Ab 199€"
-            description="Vertiefe dein Wissen in speziellen Programmierthemen"
+            description="Vertiefe dein Wissen in speziellen Themen mit unseren Onlinekursen"
             href="#get-started-today"
             features={[
               'In unserer Online Schule findest du spannende Kurse die an den erlernten Grundlagen anknüpfen',
-              'Wähle aus: Spieleentwicklung, mobile Entwicklung, Data Science und KI',
+              'Wähle aus: Spieleentwicklung, mobile Entwicklung, Data Science, KI, etc.S',
               'Die Kurse sind als Video-on-Demand verfügbar. Du bestimmst das Tempo!',
               'Lebenslanger Zugriff auf alle Kursmaterialien',
             ]}

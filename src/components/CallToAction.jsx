@@ -27,7 +27,7 @@ export function CallToAction() {
             Tel.: 0177-8028796
           </p>
           <p className="mt-4 text-lg tracking-tight text-white">
-          Email: coding-werkstatt@gmail.com
+          Email: christianbernhard089@gmail.com
           </p>
 
           {/*<Button href="/register" color="white" className="mt-10">*/}

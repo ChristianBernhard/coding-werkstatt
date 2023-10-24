@@ -7,15 +7,23 @@ import avatarImage3 from '@/images/avatars/avatar-3.png'
 import avatarImage4 from '@/images/avatars/avatar-4.png'
 import avatarImage5 from '@/images/avatars/avatar-5.png'
 
+import hasan from '@/images/avatars/hasan.jpeg'
+import alex from '@/images/avatars/zeeb.jpeg'
+import domi from '@/images/avatars/domi.jpeg'
+import batu from '@/images/avatars/batu.jpg'
+import josh from '@/images/avatars/josh.jpeg'
+import alisa from '@/images/avatars/alisa.jpeg'
+import berk from '@/images/avatars/berk.jpeg'
+
 const testimonials = [
   [
     {
       content:
         'Durch den Programmier Pioneer Grundkurs habe ich meine Leidenschaft für Informatik entdeckt. Jetzt studiere ich Informatik und sehe eine aufregende Zukunft vor mir.',
       author: {
-        name: 'Hasan Z.',
+        name: 'Hasan T.',
         role: 'Abiturient',
-        image: avatarImage1,
+        image: hasan,
       },
     },
     {
@@ -24,7 +32,7 @@ const testimonials = [
       author: {
         name: 'Batu G.',
         role: 'B. Sc. Data Science',
-        image: avatarImage4,
+        image: batu,
       },
     },
   ],
@@ -35,16 +43,16 @@ const testimonials = [
       author: {
         name: 'Alex Z.',
         role: 'Abiturient',
-        image: avatarImage5,
+        image: alex,
       },
     },
     {
       content:
-        'Ich habe mittlerweile meine eigene App rausgebracht und danke dem Team Coding Werkstatt dafür, in mir das Feuer für die Informatik entfacht zu haben.',
+        'Ich habe mittlerweile meine eigene App rausgebracht und danke dem Team Coding Werkstatt dafür, damals in mir das Feuer für die Informatik entfacht zu haben.',
       author: {
         name: 'Joshua S.',
         role: 'Abiturient',
-        image: avatarImage2,
+        image: josh,
       },
     },
   ],
@@ -53,9 +61,9 @@ const testimonials = [
       content:
         'Ich habe den Kurs in den Sommerferien vor meinem Studiumbeginn gemacht. Dank der Vorkenntnisse konnte ich im ersten Semester Informatik überzeugen und habe bereits meinen ersten Werkstudentenjob.',
       author: {
-        name: 'Stephan T.',
+        name: 'Alisa D.',
         role: 'B. Sc. Informatik',
-        image: avatarImage3,
+        image: alisa,
       },
     },
     {
@@ -64,7 +72,7 @@ const testimonials = [
       author: {
         name: 'Berk Ö.',
         role: 'Abiturient',
-        image: avatarImage4,
+        image: berk,
       },
     },
   ],

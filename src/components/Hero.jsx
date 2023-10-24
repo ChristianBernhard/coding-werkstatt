@@ -83,8 +83,8 @@ export function Hero() {
         <div className="mt-10 flex justify-center">
         <iframe
           className="rounded-lg"
-          width="560"
-          height="315"
+          width="800"
+          height="500"
           src="https://www.youtube.com/embed/Ai_kjOLZLg4"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
