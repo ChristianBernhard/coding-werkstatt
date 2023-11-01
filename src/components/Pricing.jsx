@@ -112,14 +112,14 @@ export function Pricing() {
             im Überblick
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            Du möchtest ein individuelles Angebot? Kontaktiere uns
+            Du möchtest ein individuelles Angebot? Kontaktiere uns!
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Schnupperstunde 🌟"
             price={<>30€/h</>}
-            description="Informieren Sie sich und testen Sie unser Programm."
+            description="Informiere dich und teste unseren KursS."
             href="#get-started-today"
             features={[
               'Gemütliches Kennenlernen',
@@ -133,7 +133,7 @@ export function Pricing() {
             featured
             name="Programmier Pionier 🛠️"
             price={<>50€/h</>}
-            description="Lerne alle Grundlagen des Programmierens und baue deine ersten echten Anwendungen"
+            description="Lerne die Grundlagen des Codings und baue deine ersten echten Anwendungen."
             href="#get-started-today"
             features={[
               'Der Kurs umfasst 10 Einheiten à 90 min',
@@ -147,7 +147,7 @@ export function Pricing() {
               available={false}
             name="Folgekurse 🚀"
             price="Ab 199€"
-            description="Vertiefe dein Wissen in speziellen Themen mit unseren Onlinekursen"
+            description="Vertiefe dein Wissen in speziellen Themen mit unseren Onlinekursen."
             href="#get-started-today"
             features={[
               'In unserer Online Schule findest du spannende Kurse die an den erlernten Grundlagen anknüpfen',
