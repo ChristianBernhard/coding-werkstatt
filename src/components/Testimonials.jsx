@@ -21,7 +21,7 @@ const testimonials = [
       content:
         'Durch den Programmier Pioneer Grundkurs habe ich meine Leidenschaft für Informatik entdeckt. Jetzt studiere ich Informatik und sehe eine aufregende Zukunft vor mir.',
       author: {
-        name: 'Hasan T.',
+        name: 'Hasan D.',
         role: 'Abiturient',
         image: hasan,
       },

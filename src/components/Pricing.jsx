@@ -119,7 +119,7 @@ export function Pricing() {
           <Plan
             name="Schnupperstunde 🌟"
             price={<>30€/h</>}
-            description="Informiere dich und teste unseren KursS."
+            description="Informiere dich und teste unseren Kurs."
             href="#get-started-today"
             features={[
               'Gemütliches Kennenlernen',
