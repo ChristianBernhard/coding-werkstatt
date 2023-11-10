@@ -122,7 +122,7 @@ export function Pricing() {
             description="Informiere dich und teste unseren Kurs."
             href="#get-started-today"
             features={[
-              'Gemütliches Kennenlernen',
+              'Entspanntes Kennenlernen',
               'Klärung organisatorischer Fragen',
               'Einrichtung & Installation',
               'Ersten Schritte mit Python',
