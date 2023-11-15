@@ -79,8 +79,7 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            {/*<MobileNavLink href="#features">Produkte</MobileNavLink>*/}
-            <NavLink href="#">Über uns</NavLink>
+            <MobileNavLink href="#features">Über uns</MobileNavLink>
             <MobileNavLink href="#pricing">Preise</MobileNavLink>
             <MobileNavLink href="#get-started-today">Kontakt</MobileNavLink>
             {/*<MobileNavLink href="/login">Sign in</MobileNavLink>*/}
@@ -101,7 +100,6 @@ export function Header() {
               <Logo src="/Logo.svg" alt="Your Logo Alt Text" className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              {/*<NavLink href="#features">Produkte</NavLink>*/}
               <NavLink href="#">Über uns</NavLink>
               <NavLink href="#pricing">Preise</NavLink>
               <NavLink href="#get-started-today">Kontakt</NavLink>

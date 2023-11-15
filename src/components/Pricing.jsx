@@ -82,7 +82,9 @@ function Plan({ name, price, description, href, features, featured = false, avai
         ))}
       </ul>
       <Button
-  href={href}
+  href={available ? "https://calendly.com/coding-werkstatt/programmier-pionieer-90-min?month=2023-11" : '#'}
+  target={available ? "_blank" : undefined}
+  rel={available ? "noopener noreferrer" : undefined}
   variant={featured ? 'solid' : 'outline'}
   color="white"
   className={`mt-8 ${!available ? 'pointer-events-none' : ''}`}
@@ -90,6 +92,7 @@ function Plan({ name, price, description, href, features, featured = false, avai
 >
   {available ? "Los gehts!" : "Coming Soon"}
 </Button>
+
 
     </section>
   )
@@ -118,7 +121,7 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Schnupperstunde 🌟"
-            price={<>30€/h</>}
+            price={<>20€/h</>}
             description="Informiere dich und teste unseren Kurs."
             href="#get-started-today"
             features={[
@@ -132,7 +135,7 @@ export function Pricing() {
           <Plan
             featured
             name="Programmier Pionier 🛠️"
-            price={<>50€/h</>}
+            price={<>40€/h</>}
             description="Lerne die Grundlagen des Codings und baue deine ersten echten Anwendungen."
             href="#get-started-today"
             features={[
@@ -151,7 +154,7 @@ export function Pricing() {
             href="#get-started-today"
             features={[
               'In unserer Online Schule findest du spannende Kurse die an den erlernten Grundlagen anknüpfen',
-              'Wähle aus: Spieleentwicklung, mobile Entwicklung, Data Science, KI, etc.S',
+              'Wähle aus: Spieleentwicklung, mobile Entwicklung, Data Science, KI, etc.',
               'Die Kurse sind als Video-on-Demand verfügbar. Du bestimmst das Tempo!',
               'Lebenslanger Zugriff auf alle Kursmaterialien',
             ]}
