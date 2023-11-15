@@ -82,7 +82,7 @@ function MobileNavigation() {
             <MobileNavLink href="#">Über uns</MobileNavLink>
             <MobileNavLink href="#pricing">Preise</MobileNavLink>
             <MobileNavLink href="#get-started-today">Kontakt</MobileNavLink>
-            <MobileNavLink href="https://www.ainleuchtend.de/" target="_blank" rel="noopener noreferrer">Ainleuchtend</MobileNavLink>
+            {/*<MobileNavLink href="https://www.ainleuchtend.de/" target="_blank" rel="noopener noreferrer">Ainleuchtend</MobileNavLink>*/}
             {/*<MobileNavLink href="/login">Sign in</MobileNavLink>*/}
           </Popover.Panel>
         </Transition.Child>
@@ -104,7 +104,7 @@ export function Header() {
               <NavLink href="#">Über uns</NavLink>
               <NavLink href="#pricing">Preise</NavLink>
               <NavLink href="#get-started-today">Kontakt</NavLink>
-              <NavLink href="https://www.ainleuchtend.de/" target="_blank" rel="noopener noreferrer">AInleuchtend</NavLink>
+              {/*<NavLink href="https://www.ainleuchtend.de/" target="_blank" rel="noopener noreferrer">AInleuchtend</NavLink>*/}
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
