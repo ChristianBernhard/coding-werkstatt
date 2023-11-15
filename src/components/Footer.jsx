@@ -19,6 +19,7 @@ export function Footer() {
                             <NavLink href="#">Über uns</NavLink>
                             <NavLink href="#pricing">Preise</NavLink>
                             <NavLink href="#get-started-today">Kontakt</NavLink>
+                            <NavLink href="https://www.ainleuchtend.de/" target="_blank" rel="noopener noreferrer">AInleuchtend</NavLink>
                         </div>
                     </nav>
                 </div>
