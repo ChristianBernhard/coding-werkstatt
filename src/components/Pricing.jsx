@@ -143,8 +143,8 @@ export function Pricing() {
                             'Aktueller Sonderpreis nur für kurze Zeit⏱️',
                             'Alle Einheiten in kompakten Video-Nuggets für einen flexiblen Lernrhytmus',
                             'Lerne die Grundlagen wie Variablen, Datentypen, Schleifen & Co. mit Python',
-                            'Praktische Übungen zur Vertiefung des Gelernten',
-                            'Erste eigene Softwareprojekte mit modernem User Interface',
+                            'Praktische Übungen zur Vertiefung der Skills & erste eigene Softwareprojekte',
+                            'Professionelles Teilnahmezertifikat für deinen Lebenslauf',
                         ]}
                     />
                     <Plan
@@ -158,6 +158,8 @@ export function Pricing() {
                             'Wähle aus: Spieleentwicklung, mobile Entwicklung, Data Science, KI, etc.',
                             'Videos-on-Demand für flexibles Lernen',
                             'Lebenslanger Zugriff auf alle Kursmaterialien',
+                            'Professionelles Teilnahmezertifikat für deinen Lebenslauf',
+
                         ]}
                     />
                 </div>
