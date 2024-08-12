@@ -47,7 +47,7 @@ function CheckIcon({className, ...props}) {
     )
 }
 
-function Plan({name, price, description, href, features, featured = false, available = true}) {
+function Plan({name, price, description, href, features, featured = false, buttonText}) {
     return (
         <section
             className={clsx(
@@ -82,18 +82,16 @@ function Plan({name, price, description, href, features, featured = false, avail
                 ))}
             </ul>
             <Button
-                href={available ? "https://calendly.com/coding-werkstatt/programmier-pionieer-90-min?month=2023-11" : '#'}
-                target={available ? "_blank" : undefined}
-                rel={available ? "noopener noreferrer" : undefined}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 variant={featured ? 'solid' : 'outline'}
                 color="white"
-                className={`mt-8 ${!available ? 'pointer-events-none' : ''}`}
+                className="mt-8"
                 aria-label={`Get started with the ${name} plan for ${price}`}
             >
-                {available ? "Buche jetzt!" : "Coming Soon"}
+                {buttonText}
             </Button>
-
-
         </section>
     )
 }
@@ -110,35 +108,34 @@ export function Pricing() {
                     <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400"/>
-              <span className="relative">Unsere Preismodelle</span>
+              <span className="relative">Unsere Kurse im Überblick</span>
             </span>{' '}
-                        im Überblick
                     </h2>
                     <p className="mt-4 text-lg text-slate-400">
-                        Du möchtest ein individuelles Angebot? Kontaktiere uns!
+                        Wähle aus einer Vielzahl an Kursen aus! Von Zero bis Fortgeschritten.
                     </p>
                 </div>
                 <div
                     className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
                     <Plan
-                        name="Informationsgepräch 🌟"
-                        price={<>0€</>}
-                        description="Buche ein 15-minütiges Gespräch, um alle deine Fragen zu klären und mehr über unsere Kurse zu erfahren."
-                        href="#get-started-today"
+                        name="Python Games: Snake🐍"
+                        price={<>89€</>}
+                        description="Lerne, wie du das klassische Snake-Spiel von Grund auf mit Python und Pygame programmierst. Dieser Kurs führt dich Schritt für Schritt durch die Entwicklung des Spiels und vermittelt dir dabei wichtige Programmierkonzepte."
+                        href="https://youtu.be/r1BsPsLXQ8M?si=IiXxXwVXK1OcUpuh"
                         features={[
-                            'Kostenloses 15-minütiges Call',
-                            'Entspanntes Kennenlernen',
-                            'Antworten auf all deine Fragen',
-                            'Einblick in den Kursablauf und Inhalte',
-                            'Persönliche Beratung',
+                            'Einführung in Python und Pygame',
+                            'Schritt-für-Schritt Anleitung zur Entwicklung eines Snake-Spiels',
+                            'Erweiterte Python Konzepte wie Klassen oder Game Kolissions',
+                            'Optimierung und Debugging des Spiels',
                         ]}
+                        buttonText="Bald erhältlich!"
                     />
                     <Plan
                         featured
-                        name="Programmier Pionier 🛠️"
-                        price={<><s>299€</s> 99€</>}
+                        name="Programmier Pionier - Python Grundlagen🛠️"
+                        price={<><s>199€</s> 99€</>}
                         description="Starte deine Programmierkarriere mit unserem flexiblen Online-Kurs. Lerne in deinem eigenen Tempo."
-                        href="#get-started-today"
+                        href="https://www.udemy.com/course/programmier-pionier-python/?couponCode=CODING-WERKSTATT"
                         features={[
                             'Aktueller Sonderpreis nur für kurze Zeit⏱️',
                             'Alle Einheiten in kompakten Video-Nuggets für einen flexiblen Lernrhytmus',
@@ -146,22 +143,22 @@ export function Pricing() {
                             'Praktische Übungen zur Vertiefung der Skills & erste eigene Softwareprojekte',
                             'Professionelles Teilnahmezertifikat für deinen Lebenslauf',
                         ]}
+                        buttonText="Jetzt kaufen"
                     />
                     <Plan
-                        available={false}
-                        name="Folgekurse 🚀"
-                        price="Ab 99€"
-                        description="Vertiefe dein Wissen in speziellen Themen mit unseren Onlinekursen."
-                        href="#get-started-today"
+                        name="BuildYourGPT - Python Chatbot🤖"
+                        price={<>89€</>}
+                        description="Entdecke die Grundlagen von Generative AI (GenAI) und Large Language Models (LLMs). Lerne, wie du deinen eigenen ChatGPT-ähnlichen Chatbot mit Python und der OpenAI API erstellst und anpasst."
+                        href="https://youtu.be/mTJkWGlXMy4?si=UtPWGXfPedGURd_n"
                         features={[
-                            'In unserer Online Schule findest du spannende Kurse die an den erlernten Grundlagen anknüpfen',
-                            'Wähle aus: Spieleentwicklung, mobile Entwicklung, Data Science, KI, etc.',
-                            'Videos-on-Demand für flexibles Lernen',
-                            'Lebenslanger Zugriff auf alle Kursmaterialien',
-                            'Professionelles Teilnahmezertifikat für deinen Lebenslauf',
-
+                            'Einführung in Generative AI und LLMs',
+                            'Grundlagen der OpenAI API und deren Nutzung',
+                            'Schritt-für-Schritt Anleitung zur Erstellung eines eigenen Chatbots',
+                            'Implementierung von Chat Memory und einer Chatbot UI mit Streamlit',
                         ]}
+                        buttonText="Bald erhältlich!"
                     />
+
                 </div>
             </Container>
         </section>
