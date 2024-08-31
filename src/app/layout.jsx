@@ -1,5 +1,6 @@
 import { Inter, Lexend } from 'next/font/google'
 import clsx from 'clsx'
+import Head from 'next/head'
 
 import '@/styles/tailwind.css'
 
@@ -34,6 +35,18 @@ export default function RootLayout({ children }) {
         lexend.variable,
       )}
     >
+      <Head>
+        {/* Google Tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16687855766"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16687855766');
+          `,
+        }} />
+      </Head>
       <body className="flex h-full flex-col">{children}</body>
     </html>
   )
