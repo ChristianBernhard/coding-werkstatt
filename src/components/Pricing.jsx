@@ -146,7 +146,7 @@ export function Pricing() {
                         buttonText="Jetzt kaufen"
                     />
                     <Plan
-                        name="BuildYourGPT - Python Chatbot🤖"
+                        name="BuildYourGPT - Python Chatbot🤖 - Bald erhältlich - Schreibe mir jetzt für 25% Rabatt"
                         price={<>89€</>}
                         description="Entdecke die Grundlagen von Generative AI (GenAI) und Large Language Models (LLMs). Lerne, wie du deinen eigenen ChatGPT-ähnlichen Chatbot mit Python und der OpenAI API erstellst und anpasst."
                         href="https://youtu.be/mTJkWGlXMy4?si=UtPWGXfPedGURd_n"
