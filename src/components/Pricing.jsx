@@ -121,7 +121,7 @@ export function Pricing() {
                         name="Python Games: Snake🐍"
                         price={<>89€</>}
                         description="Lerne, wie du das klassische Snake-Spiel von Grund auf mit Python und Pygame programmierst. Dieser Kurs führt dich Schritt für Schritt durch die Entwicklung des Spiels und vermittelt dir dabei wichtige Programmierkonzepte."
-                        href="https://youtu.be/r1BsPsLXQ8M?si=IiXxXwVXK1OcUpuh"
+                        href="https://coding-werkstatt.teachable.com"
                         features={[
                             'Einführung in Python und Pygame',
                             'Schritt-für-Schritt Anleitung zur Entwicklung eines Snake-Spiels',
