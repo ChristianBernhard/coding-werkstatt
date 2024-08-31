@@ -135,7 +135,7 @@ export function Pricing() {
                         name="Programmier Pionier - Python Grundlagen🛠️"
                         price={<><s>199€</s> 99€</>}
                         description="Starte deine Programmierkarriere mit unserem flexiblen Online-Kurs. Lerne in deinem eigenen Tempo."
-                        href="https://www.udemy.com/course/programmier-pionier-python/?couponCode=CODING-WERKSTATT"
+                        href="https://coding-werkstatt.teachable.com"
                         features={[
                             'Aktueller Sonderpreis nur für kurze Zeit⏱️',
                             'Alle Einheiten in kompakten Video-Nuggets für einen flexiblen Lernrhytmus',
