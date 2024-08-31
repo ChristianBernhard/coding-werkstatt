@@ -128,7 +128,7 @@ export function Pricing() {
                             'Erweiterte Python Konzepte wie Klassen oder Game Kolissions',
                             'Optimierung und Debugging des Spiels',
                         ]}
-                        buttonText="Bald erhältlich!"
+                        buttonText="Jetzt kaufen"
                     />
                     <Plan
                         featured
@@ -156,7 +156,7 @@ export function Pricing() {
                             'Schritt-für-Schritt Anleitung zur Erstellung eines eigenen Chatbots',
                             'Implementierung von Chat Memory und einer Chatbot UI mit Streamlit',
                         ]}
-                        buttonText="Bald erhältlich!"
+                        buttonText="Zum Video!"
                     />
 
                 </div>
